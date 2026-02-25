@@ -1,0 +1,12 @@
+-- 1
+SELECT *
+FROM library
+ORDER BY id ASC
+LIMIT 5;
+
+-- 2
+SELECT *
+FROM library
+ORDER BY id ASC
+OFFSET 5
+LIMIT 5;
